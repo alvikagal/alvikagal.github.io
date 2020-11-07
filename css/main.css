@@ -276,6 +276,7 @@ h2 {
   text-align: center;
   width: 32px;
   height: 32px;
+  display: block;
 }
 .circle {
   margin: 5px 0px 0px 2px;
@@ -509,6 +510,9 @@ Responsive desing
     right: 30%;
     width: 15%;
   }
+  .feature_circle {
+    display: none;
+  }
   .part3 {
     padding: 10px 0 0 0;
   }
@@ -518,19 +522,19 @@ Responsive desing
   .branding {
     width: 90%;
     position: relative;
-    left: 5%;
+    left: 0%;
   }
   .development {
     width: 90%;
     position: relative;
     top: 40px;
-    left: 5%;
+    left: 0%;
   }
   .consulting {
     width: 90%;
     position: relative;
     top: 80px;
-    left: 5%;
+    left: 0%;
   }
 }
 
@@ -579,6 +583,9 @@ Responsive desing
   .part2_heart::after {
     left: 200px;
   }
+  .feature_circle {
+    display: none;
+  }
   .part3 {
     padding: 10px 0 0 0;
   }
@@ -588,19 +595,19 @@ Responsive desing
   .branding {
     width: 90%;
     position: relative;
-    left: 5%;
+    left: 0%;
   }
   .development {
     width: 90%;
     position: relative;
     top: 40px;
-    left: 5%;
+    left: 0%;
   }
   .consulting {
     width: 90%;
     position: relative;
     top: 80px;
-    left: 5%;
+    left: 0%;
   }
 }
 
