@@ -3,7 +3,7 @@ var navigation = document.querySelector(".header_menu");
 
 //отображать навигацию при изменении ширины экрана более 400рх
 onresize = function() {
-	if (document.documentElement.clientWidth > 400) {
+	if (document.documentElement.clientWidth > 500) {
 		navigation.style.display = "block";
 	} else {
 		navigation.style.display = "none";
