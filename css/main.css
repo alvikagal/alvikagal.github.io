@@ -192,22 +192,24 @@ header nav a:last-child {
   line-height: 76px;
   margin: 0 auto;
 }
-.part1_title3::after {
-  content: "";
-  width: 28px;
-  height: 1px;
-  background-color: #2B76FE;
-  top: 442px;
-  right: 486px;
-  position: absolute;
-}
 .part1_title3::before {
   content: "";
-  width: 28px;
+  /*width: 28px;*/
   height: 1px;
   background-color: #2B76FE;
   top: 442px;
-  left: 491px;
+  left: 26%;
+  width: 3%;
+  position: absolute;
+}
+.part1_title3::after {
+  content: "";
+  /*width: 28px;*/
+  height: 1px;
+  background-color: #2B76FE;
+  top: 442px;
+  left: 70%;
+  width: 3%;
   position: absolute;
 }
 .header_social {
@@ -351,7 +353,7 @@ Responsive desing
   .nav {
     right: 10px;
   }
-    .part2 {
+  .part2 {
     padding: 25px 0 0 0;
   }
   .part2_heart::before {
@@ -381,7 +383,7 @@ Responsive desing
   .header {
     height: 420px;
   }
-    .features {
+  .features {
     height: 420px;
   }
   .conteiner {
@@ -399,6 +401,12 @@ Responsive desing
   .header_body {
     margin: 25px 0px 0px 0px;
   }
+  .part1_title3::before {
+    top: 242px;
+  }
+  .part1_title3::after {
+    top: 242px;
+  }
   .header_social {
     margin: 0px 0px 0px 0px;
   }
@@ -406,10 +414,12 @@ Responsive desing
     padding: 25px 0 0 0;
   }
   .part2_heart::before {
-    left: 30%;
+    left: 27%;
+    width: 15%;
   }
   .part2_heart::after {
-    left: 58%;
+    right: 30%;
+    width: 15%;
   }
   .part3 {
     padding: 10px 0 0 0;
@@ -473,16 +483,14 @@ Responsive desing
     margin: 0 auto;
   }
   .part1_title3::before {
-    content: "";
-    width: 14px;
+    left: 26%;
+    width: 6%;
     top: 173px;
-    left: 69px;
   }
   .part1_title3::after {
-    content: "";
-    width: 14px;
+    left: 68%;
+    width: 6%;
     top: 173px;
-    left: 240px;
   }
   .header_social {
     margin: 0px 0px 0px 0px;
@@ -494,10 +502,12 @@ Responsive desing
     font-size: 20px;
   }
   .part2_heart::before {
-    left: 30px;
+    left: 27%;
+    width: 15%;
   }
   .part2_heart::after {
-    left: 200px;
+    right: 30%;
+    width: 15%;
   }
   .part3 {
     padding: 10px 0 0 0;
@@ -545,16 +555,14 @@ Responsive desing
     margin: 0 auto;
   }
   .part1_title3::before {
-    content: "";
-    width: 14px;
+    left: 26%;
+    width: 6%;
     top: 173px;
-    left: 69px;
   }
   .part1_title3::after {
-    content: "";
-    width: 14px;
+    left: 68%;
+    width: 6%;
     top: 173px;
-    left: 240px;
   }
   .header_social {
     margin: 0px 0px 0px 0px;
