@@ -487,6 +487,11 @@ Responsive desing
     left: 66%;
     width: 30%;
   } 
+  #main-slider {
+    position: relative;
+    /*margin: 0 auto;*/
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -546,6 +551,11 @@ Responsive desing
     left: 66%;
     width: 30%;
   }
+   #main-slider {
+    position: relative;
+    /*margin: 0 auto;*/
+    width: 100%;
+  } 
 }
 
 
@@ -644,6 +654,11 @@ Responsive desing
     position: relative;
     top: 80px;
     left: 0%;
+  }
+    #main-slider {
+    position: relative;
+    /*margin: 0 auto;*/
+    width: 100%;
   }
 }
 
